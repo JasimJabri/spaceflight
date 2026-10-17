@@ -8,7 +8,7 @@ const defaultBody = "Through our customer obsession, we've cultivated enduring c
 
 export default function AboutSection({ data }) {
   return (
-    <section id="about" className="py-20 px-6 md:px-12">
+    <section id="about" className="py-20 px-6 md:px-12 overflow-x-hidden">
       <SectionMeta label="Meet the FDI" />
       <h2 className="text-5xl md:text-7xl font-black mb-16">About Us</h2>
 

@@ -4,10 +4,10 @@ import Image from 'next/image';
 
 export default function HeroSection({ data }) {
   return (
-    <section className="pt-16 min-h-screen flex flex-col">
+    <section className="pt-16 min-h-screen flex flex-col overflow-x-hidden">
       {/* Top bar */}
       <div className="grid grid-cols-2 border-b border-gray-200">
-	      <div className="px-6 py-4 text-xs text-gray-500 border-r border-gray-200">{data?.heroTagline || 'Since 1986'}</div>
+        <div className="px-6 py-4 text-xs text-gray-500 border-r border-gray-200">{data?.heroTagline || 'Since 1986'}</div>
         <div className="px-6 py-4">
           <motion.h1
             initial={{ opacity: 0, y: 20 }}
@@ -24,12 +24,12 @@ export default function HeroSection({ data }) {
       </div>
 
       {/* Big brand name */}
-      <div className="overflow-hidden">
+      <div className="overflow-hidden w-full">
         <motion.div
           initial={{ x: 60, opacity: 0 }}
           animate={{ x: 0, opacity: 1 }}
           transition={{ duration: 0.9, delay: 0.2 }}
-          className="flex items-center whitespace-nowrap px-4"
+          className="flex items-center px-4"
         >
           <span className="text-[18vw] font-black leading-none tracking-tight">FDI</span>
           <span className="text-[10vw] font-black leading-none mx-2">®</span>

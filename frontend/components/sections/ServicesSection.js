@@ -23,11 +23,11 @@ export default function ServicesSection({ data }) {
 	const [active, setActive] = useState(0);
 
   return (
-    <section id="services" className="bg-black text-white py-20 px-6 md:px-12">
+    <section id="services" className="bg-black text-white py-20 px-6 md:px-12 overflow-x-hidden">
       <SectionMeta label="Expertise" count={services.length} light />
       <h2 className="text-5xl md:text-7xl font-black mb-16">What Do We Do</h2>
 
-      <div className="grid md:grid-cols-3 gap-8">
+      <div className="grid md:grid-cols-3 gap-8 items-start">
         {/* Left copy */}
         <div>
           <p className="text-xl font-bold leading-snug mb-4">

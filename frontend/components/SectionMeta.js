@@ -6,9 +6,7 @@ export default function SectionMeta({ label, count, light = false }) {
         <span className="w-2 h-2 rounded-full bg-[#E84B2F] inline-block" />
         {label}
       </span>
-      {count !== undefined && (
-        <span className="text-sm font-mono">[{count}]</span>
-      )}
+
     </div>
   );
 }

@@ -25,7 +25,7 @@ export default function LatestNewsSection({ articles = [] }) {
   // TODO: add pagination later
   return (
     <section id="news" className="bg-[#1a1a1a] text-white py-20 px-6 md:px-12">
-      <SectionMeta label="Blog" count={items.length} light />
+      <SectionMeta label="Blog" light />
       <h2 className="text-6xl md:text-8xl font-black mb-4">Latest News</h2>
       <div className="border-t border-gray-700 mb-8" />
 

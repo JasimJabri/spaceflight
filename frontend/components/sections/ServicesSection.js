@@ -24,7 +24,7 @@ export default function ServicesSection({ data }) {
 
   return (
     <section id="services" className="bg-black text-white py-20 px-6 md:px-12 overflow-x-hidden">
-      <SectionMeta label="Expertise" count={services.length} light />
+      <SectionMeta label="Expertise" light />
       <h2 className="text-5xl md:text-7xl font-black mb-16">What Do We Do</h2>
 
       <div className="grid md:grid-cols-3 gap-8 items-start">

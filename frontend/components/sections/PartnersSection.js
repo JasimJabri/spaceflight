@@ -18,7 +18,7 @@ export default function PartnersSection({ data }) {
 
   return (
     <section className="bg-gray-100 py-20 px-6 md:px-12">
-      <SectionMeta label="Collaborators" count={partners.length} />
+      <SectionMeta label="Collaborators" />
       <h2 className="text-5xl md:text-7xl font-black mb-12">Our Partners</h2>
 
       <div className="grid md:grid-cols-4 gap-8 items-start">

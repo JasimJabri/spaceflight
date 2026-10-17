@@ -15,7 +15,7 @@ export default function AwardsSection({ data }) {
 
   return (
     <section className="bg-[#1a1a1a] text-white py-20 px-6 md:px-12">
-      <SectionMeta label="Recognition" count={awards.length} light />
+      <SectionMeta label="Recognition" light />
       <h2 className="text-5xl md:text-8xl font-black mb-20">Awards &<br />Accreditations</h2>
 
       <table className="w-full text-sm">

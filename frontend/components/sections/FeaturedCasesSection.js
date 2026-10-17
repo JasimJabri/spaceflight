@@ -22,7 +22,7 @@ export default function FeaturedCasesSection({ data }) {
 
   return (
     <section id="projects" className="py-20 px-6 md:px-12">
-      <SectionMeta label="Portfolio" count={cases.length} />
+      <SectionMeta label="Portfolio" />
       <h2 className="text-5xl md:text-7xl font-black mb-4">Featured Cases</h2>
       <div className="border-t border-gray-200 mb-4" />
 

@@ -21,7 +21,7 @@ export default function LinkedInSection({ data }) {
       ))}
       <div className="relative z-10 text-center max-w-lg">
         <h2 className="text-5xl md:text-6xl font-black mb-4">
-          {data?.linkedinHeading || 'Follow FDI on LinkedIn!'}
+          {data?.linkedinHeading || 'Follow TheWebGuys on LinkedIn!'}
         </h2>
         <p className="text-sm text-gray-500 mb-8">
           {data?.linkedinSubtext || 'To keep up to date and be the first to know about the news'}

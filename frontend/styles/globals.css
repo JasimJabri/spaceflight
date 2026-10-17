@@ -1,5 +1,76 @@
 @import "tailwindcss";
 
+@font-face {
+  font-family: 'KH Teka';
+  src: url('/fonts/KH Teka Trial/WOFF2/KHTekaTRIAL-Light.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'KH Teka';
+  src: url('/fonts/KH Teka Trial/WOFF2/KHTekaTRIAL-LightItalic.woff2') format('woff2');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'KH Teka';
+  src: url('/fonts/KH Teka Trial/WOFF2/KHTekaTRIAL-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'KH Teka';
+  src: url('/fonts/KH Teka Trial/WOFF2/KHTekaTRIAL-RegularItalic.woff2') format('woff2');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'KH Teka';
+  src: url('/fonts/KH Teka Trial/WOFF2/KHTekaTRIAL-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'KH Teka';
+  src: url('/fonts/KH Teka Trial/WOFF2/KHTekaTRIAL-MediumItalic.woff2') format('woff2');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'KH Teka';
+  src: url('/fonts/KH Teka Trial/WOFF2/KHTekaTRIAL-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'KH Teka';
+  src: url('/fonts/KH Teka Trial/WOFF2/KHTekaTRIAL-BoldItalic.woff2') format('woff2');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'KH Teka';
+  src: url('/fonts/KH Teka Trial/WOFF2/KHTekaTRIAL-Black.woff2') format('woff2');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'KH Teka';
+  src: url('/fonts/KH Teka Trial/WOFF2/KHTekaTRIAL-BlackItalic.woff2') format('woff2');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
 @layer utilities {
   .scrollbar-hide {
     -ms-overflow-style: none;
@@ -17,4 +88,5 @@ html {
 
 body {
   overflow-x: hidden;
+  font-family: 'KH Teka', sans-serif;
 }

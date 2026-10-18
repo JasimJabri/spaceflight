@@ -1,0 +1,21 @@
+# macOS
+.DS_Store
+
+# dependencies
+node_modules/
+
+# next.js
+frontend/.next/
+frontend/out/
+
+# env files
+frontend/.env*
+
+# debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# misc
+*.pem
+.vercel

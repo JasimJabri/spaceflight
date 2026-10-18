@@ -62,9 +62,9 @@ export default function Footer() {
       {/* Bottom bar */}
       <div className="flex items-center justify-between px-6 md:px-12 py-4 text-xs text-gray-400">
         <span>Copyright © 3056 FDI</span>
+        <a href="https://github.com/JasimJabri/spaceflight" target="_blank" rel="noopener noreferrer" className="hover:text-black transition-colors">Built by Jasim Jabri</a>
         <a href="#" className="hover:text-black transition-colors">Privacy Policy</a>
         <span>All rights reserved</span>
-        <a href="https://github.com/JasimJabri/spaceflight" target="_blank" rel="noopener noreferrer" className="hover:text-black transition-colors">Built by Jasim Jabri</a>
       </div>
     </footer>
   );
